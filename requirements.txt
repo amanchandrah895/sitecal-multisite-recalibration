@@ -1,0 +1,11 @@
+numpy>=1.22
+scipy>=1.8
+pandas>=1.4
+scikit-learn>=1.2
+statsmodels>=0.13
+lightgbm>=3.3
+xgboost>=1.7
+matplotlib>=3.5
+pyarrow>=10
+google-cloud-bigquery>=3.0
+db-dtypes>=1.0

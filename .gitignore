@@ -1,0 +1,22 @@
+# credentialed PhysioNet data and anything derived from it: never commit
+data/
+models/
+results/
+*.parquet
+*.pkl
+*.csv.gz
+# python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+# latex build files
+*.aux
+*.log
+*.out
+*.toc
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+# os
+.DS_Store

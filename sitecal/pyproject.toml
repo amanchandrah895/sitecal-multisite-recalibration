@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sitecal"
+version = "0.1.0"
+description = "Site-level calibration audit and hierarchical (empirical-Bayes) recalibration for models deployed at many sites"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22", "scipy>=1.8", "pandas>=1.4"]
+
+[tool.setuptools]
+packages = ["sitecal"]
