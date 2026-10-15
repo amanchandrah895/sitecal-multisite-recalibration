@@ -14,6 +14,7 @@ sitecal-multisite-recalibration/
 ├── notebooks/        Case-study analysis, NB00–NB13 (Google Colab, run in order)
 ├── code/             SQL extraction queries and the shared analysis library used by the notebooks
 ├── simulation/       Simulation study and closed-form risk analysis
+├── analysis/         Post-processing of notebook outputs (hospital-bootstrap CIs for the label budget)
 ├── requirements.txt
 └── LICENSE
 ```
