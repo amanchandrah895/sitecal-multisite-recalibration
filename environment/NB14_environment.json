@@ -1,0 +1,7 @@
+{
+  "python_version": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "transport_fast": false,
+  "random_seed": 42,
+  "notebook_version": "NB14 v2"
+}

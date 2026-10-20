@@ -11,7 +11,7 @@ sitecal-multisite-recalibration/
 ├── sitecal/          Python package: calibration audit, hierarchical recalibration, risk analysis
 │   ├── sitecal/
 │   └── tests/
-├── notebooks/        Case-study analysis, NB00–NB13 (Google Colab, run in order)
+├── notebooks/        Case-study analysis, NB00–NB14 (Google Colab, run in order)
 ├── code/             SQL extraction queries and the shared analysis library used by the notebooks
 ├── simulation/       Simulation study and closed-form risk analysis
 ├── analysis/         Post-processing of notebook outputs (hospital-bootstrap CIs for the label budget)
@@ -85,6 +85,7 @@ The case study uses two databases that require credentialed access through Physi
 | NB11 | Sensitivity analyses |
 | NB12 | Chance ceilings, bootstrap intervals, multiplicity adjustment, one-stage model, leave-region-out, second outcome |
 | NB13 | Method extensions, label-free comparators, risk-analysis inputs, MLP base model |
+| NB14 | Robustness reruns: prevalence correction at equal label budgets, outcome-free hospital selection with a Poisson–lognormal count model, hospital-cluster bootstrap re-estimating the network prior (DerSimonian–Laird vs REML), source model trained only on pre-2014 MIMIC-IV stays. Package versions of this run: `environment/NB14_pip_freeze.txt` |
 
 For a quick smoke test with small bootstrap and search sizes, set `os.environ['TRANSPORT_FAST'] = '1'` in the setup cell.
 
